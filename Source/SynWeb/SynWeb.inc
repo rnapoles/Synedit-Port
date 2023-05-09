@@ -13,7 +13,11 @@
 // *** SynWeb compiler directives. Do NOT change, unless you know what are you doing! ***
 // **************************************************************************************
 
-{$I SynEdit.inc}
+{$I ..\Synedit\SynEdit.inc}
+
+{$IFDEF FPC}
+  {$ASMMODE INTEL}
+{$ENDIF}
 
 // Debug
 {.$DEFINE DEBUG}

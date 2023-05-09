@@ -4955,11 +4955,11 @@ end;
 
 procedure TCustomSynEdit.WMSetText(var Msg: TLMSetText);
 begin
-  LongBool(Msg.Result) := True;
+  Msg.Result := 1;
   try
     Text := Msg.Text
   except
-    LongBool(Msg.Result) := False;
+    Msg.Result := 0;
     raise
   end
 end;

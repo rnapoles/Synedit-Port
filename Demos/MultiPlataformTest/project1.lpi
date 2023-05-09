@@ -37,13 +37,13 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="70">
+    <Units Count="72">
       <Unit0>
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="1"/>
         <CursorPos Y="22"/>
-        <UsageCount Value="37"/>
+        <UsageCount Value="38"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit0>
@@ -54,9 +54,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
-        <TopLine Value="23"/>
+        <TopLine Value="130"/>
         <CursorPos X="15" Y="25"/>
-        <UsageCount Value="37"/>
+        <UsageCount Value="38"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -181,204 +181,204 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="2676"/>
         <CursorPos X="5" Y="2688"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
         <LoadedDesigner Value="True"/>
       </Unit21>
       <Unit22>
         <Filename Value="SynWeb/SynHighlighterWeb_Attrs.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit22>
       <Unit23>
         <Filename Value="SynWeb/SynHighlighterWeb_AttrsFunc.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit23>
       <Unit24>
         <Filename Value="SynWeb/SynHighlighterWeb_AttrsFuncList.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit24>
       <Unit25>
         <Filename Value="SynWeb/SynHighlighterWeb_AttrsFuncTable.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit25>
       <Unit26>
         <Filename Value="SynWeb/SynHighlighterWeb_CssProps.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit26>
       <Unit27>
         <Filename Value="SynWeb/SynHighlighterWeb_CssPropsFunc.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit27>
       <Unit28>
         <Filename Value="SynWeb/SynHighlighterWeb_CssPropsFuncList.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit28>
       <Unit29>
         <Filename Value="SynWeb/SynHighlighterWeb_CssPropsFuncTable.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit29>
       <Unit30>
         <Filename Value="SynWeb/SynHighlighterWeb_CssSpecial.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit30>
       <Unit31>
         <Filename Value="SynWeb/SynHighlighterWeb_CssSpecialFunc.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit31>
       <Unit32>
         <Filename Value="SynWeb/SynHighlighterWeb_CssSpecialFuncList.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit32>
       <Unit33>
         <Filename Value="SynWeb/SynHighlighterWeb_CssSpecialFuncTable.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit33>
       <Unit34>
         <Filename Value="SynWeb/SynHighlighterWeb_CssVals.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit34>
       <Unit35>
         <Filename Value="SynWeb/SynHighlighterWeb_CssValsFunc.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit35>
       <Unit36>
         <Filename Value="SynWeb/SynHighlighterWeb_CssValsFuncList.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit36>
       <Unit37>
         <Filename Value="SynWeb/SynHighlighterWeb_CssValsFuncTable.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit37>
       <Unit38>
         <Filename Value="SynWeb/SynHighlighterWeb_ESKeywords.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit38>
       <Unit39>
         <Filename Value="SynWeb/SynHighlighterWeb_ESKeywordsFunc.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit39>
       <Unit40>
         <Filename Value="SynWeb/SynHighlighterWeb_ESKeywordsFuncList.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit40>
       <Unit41>
         <Filename Value="SynWeb/SynHighlighterWeb_ESKeywordsFuncTable.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit41>
       <Unit42>
         <Filename Value="SynWeb/SynHighlighterWeb_PhpKeywords.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit42>
       <Unit43>
         <Filename Value="SynWeb/SynHighlighterWeb_PhpKeywordsFunc.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit43>
       <Unit44>
         <Filename Value="SynWeb/SynHighlighterWeb_PhpKeywordsFuncList.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit44>
       <Unit45>
         <Filename Value="SynWeb/SynHighlighterWeb_PhpKeywordsFuncTable.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit45>
       <Unit46>
         <Filename Value="SynWeb/SynHighlighterWeb_PhpVersion.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit46>
       <Unit47>
         <Filename Value="SynWeb/SynHighlighterWeb_Special.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit47>
       <Unit48>
         <Filename Value="SynWeb/SynHighlighterWeb_SpecialFunc.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit48>
       <Unit49>
         <Filename Value="SynWeb/SynHighlighterWeb_SpecialFuncList.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit49>
       <Unit50>
         <Filename Value="SynWeb/SynHighlighterWeb_SpecialFuncTable.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit50>
       <Unit51>
         <Filename Value="SynWeb/SynHighlighterWeb_Tables.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit51>
       <Unit52>
         <Filename Value="SynWeb/SynHighlighterWeb_Tags.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit52>
       <Unit53>
         <Filename Value="SynWeb/SynHighlighterWeb_TagsFunc.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit53>
       <Unit54>
         <Filename Value="SynWeb/SynHighlighterWeb_TagsFuncList.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit54>
       <Unit55>
         <Filename Value="SynWeb/SynHighlighterWeb_TagsFuncTable.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit55>
       <Unit56>
         <Filename Value="SynWeb/SynHighlighterWebData.pas"/>
         <IsPartOfProject Value="True"/>
         <TopLine Value="290"/>
         <CursorPos X="35" Y="300"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit56>
       <Unit57>
         <Filename Value="SynWeb/SynHighlighterWebMisc.pas"/>
         <IsPartOfProject Value="True"/>
         <TopLine Value="64"/>
         <CursorPos X="19" Y="78"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit57>
       <Unit58>
         <Filename Value="SynWeb/SynTokenMatch.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
         <LoadedDesigner Value="True"/>
       </Unit58>
       <Unit59>
         <Filename Value="SynWeb/SynWeb.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit59>
       <Unit60>
         <Filename Value="../../../../usr/lib/lazarus/0.9.28.2/lcl/interfaces/qt/interfaces.pp"/>
@@ -406,34 +406,33 @@
       </Unit63>
       <Unit64>
         <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="6"/>
         <TopLine Value="439"/>
         <CursorPos X="23" Y="446"/>
-        <UsageCount Value="11"/>
+        <UsageCount Value="12"/>
         <Loaded Value="True"/>
       </Unit64>
       <Unit65>
         <Filename Value="../../Source/Synedit/SynEdit.pas"/>
         <EditorIndex Value="3"/>
-        <TopLine Value="4950"/>
-        <CursorPos X="18" Y="4955"/>
-        <UsageCount Value="11"/>
+        <TopLine Value="31"/>
+        <CursorPos X="14" Y="39"/>
+        <UsageCount Value="12"/>
         <Loaded Value="True"/>
       </Unit65>
       <Unit66>
         <Filename Value="../../Source/Synedit/synedit.inc"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
         <TopLine Value="67"/>
-        <CursorPos X="3" Y="76"/>
-        <UsageCount Value="11"/>
+        <CursorPos Y="76"/>
+        <UsageCount Value="12"/>
         <Loaded Value="True"/>
       </Unit66>
       <Unit67>
         <Filename Value="C:/lazarus/lcl/lmessages.pp"/>
         <UnitName Value="LMessages"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="598"/>
+        <TopLine Value="589"/>
         <CursorPos X="5" Y="609"/>
         <UsageCount Value="10"/>
       </Unit67>
@@ -452,124 +451,145 @@
         <CursorPos X="6" Y="193"/>
         <UsageCount Value="10"/>
       </Unit69>
+      <Unit70>
+        <Filename Value="../../Source/SynWeb/SynWeb.inc"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="18"/>
+        <CursorPos X="27" Y="23"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit70>
+      <Unit71>
+        <Filename Value="../../Source/SynWeb/SynHighlighterWeb.pas"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="8783"/>
+        <CursorPos X="27" Y="8791"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit71>
     </Units>
-    <JumpHistory Count="29" HistoryIndex="28">
+    <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="../../Source/Synedit/synedit.inc"/>
-        <Caret Line="360" Column="23" TopLine="345"/>
+        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
+        <Caret Line="8172" Column="21" TopLine="8168"/>
       </Position1>
       <Position2>
-        <Filename Value="../../Source/Synedit/synedit.inc"/>
-        <Caret Line="352" Column="17" TopLine="346"/>
+        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
+        <Caret Line="8992" Column="23" TopLine="8984"/>
       </Position2>
       <Position3>
         <Filename Value="../../Source/Synedit/SynEdit.pas"/>
-        <Caret Line="4962" Column="5" TopLine="4954"/>
+        <Caret Line="9003" Column="23" TopLine="8995"/>
       </Position3>
       <Position4>
-        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
-        <Caret Line="7791" Column="21" TopLine="7786"/>
+        <Filename Value="../../Source/Synedit/synedit.inc"/>
+        <Caret Line="75" Column="16" TopLine="67"/>
       </Position4>
       <Position5>
         <Filename Value="../../Source/Synedit/SynEdit.pas"/>
-        <Caret Line="8100" Column="20" TopLine="8098"/>
+        <Caret Line="4958" Column="3" TopLine="4950"/>
       </Position5>
       <Position6>
         <Filename Value="../../Source/Synedit/SynEdit.pas"/>
-        <Caret Line="8172" Column="21" TopLine="8168"/>
+        <Caret Line="4962" Column="5" TopLine="4954"/>
       </Position6>
       <Position7>
         <Filename Value="../../Source/Synedit/SynEdit.pas"/>
-        <Caret Line="8992" Column="23" TopLine="8984"/>
+        <Caret Line="42" Column="15" TopLine="34"/>
       </Position7>
       <Position8>
-        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
-        <Caret Line="9003" Column="23" TopLine="8995"/>
+        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
+        <Caret Line="50" Column="15" TopLine="37"/>
       </Position8>
       <Position9>
-        <Filename Value="../../Source/Synedit/synedit.inc"/>
-        <Caret Line="75" Column="16" TopLine="67"/>
+        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
+        <Caret Line="49" Column="15" TopLine="34"/>
       </Position9>
       <Position10>
         <Filename Value="../../Source/Synedit/SynEdit.pas"/>
-        <Caret Line="4958" Column="3" TopLine="4950"/>
+        <Caret Line="42" TopLine="34"/>
       </Position10>
       <Position11>
-        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
-        <Caret Line="4962" Column="5" TopLine="4954"/>
+        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
+        <Caret Line="49" TopLine="34"/>
       </Position11>
       <Position12>
-        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
-        <Caret Line="42" Column="15" TopLine="34"/>
+        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
+        <Caret Line="803" Column="39" TopLine="795"/>
       </Position12>
       <Position13>
         <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
-        <Caret Line="50" Column="15" TopLine="37"/>
+        <Caret Line="183" Column="5" TopLine="175"/>
       </Position13>
       <Position14>
         <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
-        <Caret Line="49" Column="15" TopLine="34"/>
+        <Caret Line="138" Column="3" TopLine="130"/>
       </Position14>
       <Position15>
-        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
-        <Caret Line="42" TopLine="34"/>
+        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
+        <Caret Line="803" Column="39" TopLine="795"/>
       </Position15>
       <Position16>
         <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
-        <Caret Line="49" TopLine="34"/>
+        <Caret Line="183" Column="5" TopLine="175"/>
       </Position16>
       <Position17>
         <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
-        <Caret Line="803" Column="39" TopLine="795"/>
+        <Caret Line="138" Column="3" TopLine="130"/>
       </Position17>
       <Position18>
         <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
-        <Caret Line="183" Column="5" TopLine="175"/>
+        <Caret Line="806" Column="22" TopLine="795"/>
       </Position18>
       <Position19>
         <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
-        <Caret Line="138" Column="3" TopLine="130"/>
+        <Caret Line="813" Column="27" TopLine="803"/>
       </Position19>
       <Position20>
         <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
-        <Caret Line="803" Column="39" TopLine="795"/>
+        <Caret Line="883" Column="26" TopLine="873"/>
       </Position20>
       <Position21>
-        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
-        <Caret Line="183" Column="5" TopLine="175"/>
+        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
+        <Caret Line="4962" Column="9" TopLine="4950"/>
       </Position21>
       <Position22>
         <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
-        <Caret Line="138" Column="3" TopLine="130"/>
+        <Caret Line="446" Column="23" TopLine="439"/>
       </Position22>
       <Position23>
-        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
-        <Caret Line="806" Column="22" TopLine="795"/>
+        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
+        <Caret Line="4958" Column="3" TopLine="4950"/>
       </Position23>
       <Position24>
         <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
-        <Caret Line="813" Column="27" TopLine="803"/>
+        <Caret Line="446" Column="23" TopLine="439"/>
       </Position24>
       <Position25>
-        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
-        <Caret Line="883" Column="26" TopLine="873"/>
+        <Filename Value="../../Source/Synedit/synedit.inc"/>
+        <Caret Line="76" Column="3" TopLine="67"/>
       </Position25>
       <Position26>
         <Filename Value="../../Source/Synedit/SynEdit.pas"/>
-        <Caret Line="4962" Column="9" TopLine="4950"/>
+        <Caret Line="4958" Column="3" TopLine="4950"/>
       </Position26>
       <Position27>
-        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
-        <Caret Line="446" Column="23" TopLine="439"/>
+        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
+        <Caret Line="4962" Column="20" TopLine="4954"/>
       </Position27>
       <Position28>
         <Filename Value="../../Source/Synedit/SynEdit.pas"/>
-        <Caret Line="4958" Column="3" TopLine="4950"/>
+        <Caret Line="39" Column="14" TopLine="31"/>
       </Position28>
       <Position29>
-        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
-        <Caret Line="446" Column="23" TopLine="439"/>
+        <Filename Value="../../Source/SynWeb/SynWeb.inc"/>
+        <Caret Line="16" Column="15" TopLine="8"/>
       </Position29>
+      <Position30>
+        <Filename Value="../../Source/SynWeb/SynHighlighterWeb.pas"/>
+        <Caret Line="8787" Column="80" TopLine="8787"/>
+      </Position30>
     </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
