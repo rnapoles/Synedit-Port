@@ -1,0 +1,4 @@
+Can't take the address of constant expressions:
+Argument cannot be assigned to:
+https://wiki.freepascal.org/User_Changes_2.4.0#Treating_direct-mapped_properties_as_regular_fields
+

@@ -798,14 +798,20 @@ end;
 {$ENDIF}
 
 function TSynMultiSyn.GetRange: Pointer;
+var
+  local: Cardinal;
 begin
   Result := nil;
-  fRangeProc( roGet, cardinal(Result) );
+  local:= cardinal(Result);
+  fRangeProc( roGet, local);
 end;
 
 procedure TSynMultiSyn.SetRange(Value: Pointer);
+var
+  local: Cardinal;
 begin
-  fRangeProc( roSet, cardinal(Value) );
+  local:= cardinal(Value);
+  fRangeProc( roSet, local);
 end;
 
 procedure TSynMultiSyn.NewRangeProc(Operation: TRangeOperation; var Range: cardinal);
@@ -871,8 +877,11 @@ begin
 end;
 
 procedure TSynMultiSyn.UserRangeProc(Operation: TRangeOperation; var Range: cardinal);
+var
+  local: Pointer;
 begin
-  OnCustomRange( Self, Operation, pointer(Range) );
+  local:= pointer(Range);
+  OnCustomRange( Self, Operation, local);
   if (Operation = roSet) and (DefaultHighlighter <> nil) then
     fTmpRange := DefaultHighlighter.GetRange;
 end;

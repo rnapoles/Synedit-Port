@@ -1,564 +1,599 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
-    <Version Value="7"/>
+    <Version Value="12"/>
     <General>
-      <MainUnit Value="0"/>
-      <TargetFileExt Value=""/>
-      <Icon Value="0"/>
+      <Flags>
+        <CompatibilityMode Value="True"/>
+      </Flags>
       <UseXPManifest Value="True"/>
-      <ActiveEditorIndexAtStart Value="3"/>
+      <Icon Value="0"/>
     </General>
     <VersionInfo>
       <Language Value=""/>
       <CharSet Value=""/>
     </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
-      <IgnoreBinaries Value="False"/>
-      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
-      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
     </PublishOptions>
     <RunParams>
       <local>
-        <FormatVersion Value="1"/>
-        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T &apos;Lazarus Run Output&apos; -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
       </local>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default">
+          <local>
+            <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T &apos;Lazarus Run Output&apos; -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+          </local>
+        </Mode0>
+      </Modes>
     </RunParams>
     <RequiredPackages Count="1">
       <Item1>
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="63">
+    <Units Count="70">
       <Unit0>
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="project1"/>
-        <CursorPos X="1" Y="21"/>
-        <TopLine Value="1"/>
         <EditorIndex Value="1"/>
-        <UsageCount Value="35"/>
+        <CursorPos Y="22"/>
+        <UsageCount Value="37"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="unit1.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
-        <CursorPos X="52" Y="9"/>
-        <TopLine Value="1"/>
-        <EditorIndex Value="0"/>
-        <UsageCount Value="35"/>
+        <TopLine Value="23"/>
+        <CursorPos X="15" Y="25"/>
+        <UsageCount Value="37"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="SynEdit.pas"/>
-        <UnitName Value="SynEdit"/>
         <CursorPos X="4" Y="8"/>
-        <TopLine Value="1"/>
         <UsageCount Value="14"/>
       </Unit2>
       <Unit3>
         <Filename Value="../../../../usr/share/fpcsrc/2.2.4/rtl/unix/sysutils.pp"/>
-        <UnitName Value="sysutils"/>
-        <CursorPos X="1" Y="1"/>
         <TopLine Value="15"/>
         <UsageCount Value="9"/>
       </Unit3>
       <Unit4>
         <Filename Value="../../../../usr/lib/lazarus/0.9.28.2/lcl/extctrls.pp"/>
         <UnitName Value="ExtCtrls"/>
-        <CursorPos X="1" Y="1"/>
-        <TopLine Value="1"/>
         <UsageCount Value="9"/>
       </Unit4>
       <Unit5>
         <Filename Value="../../../../usr/lib/lazarus/0.9.28.2/lcl/lmessages.pp"/>
         <UnitName Value="LMessages"/>
-        <CursorPos X="3" Y="647"/>
         <TopLine Value="638"/>
+        <CursorPos X="3" Y="647"/>
         <UsageCount Value="11"/>
       </Unit5>
       <Unit6>
         <Filename Value="../../../../usr/lib/lazarus/0.9.28.2/lcl/nonwin32/messages.pp"/>
         <UnitName Value="Messages"/>
-        <CursorPos X="30" Y="35"/>
         <TopLine Value="26"/>
+        <CursorPos X="30" Y="35"/>
         <UsageCount Value="11"/>
       </Unit6>
       <Unit7>
         <Filename Value="../../../../usr/lib/lazarus/0.9.28.2/lcl/lcltype.pp"/>
         <UnitName Value="LCLType"/>
-        <CursorPos X="4" Y="162"/>
         <TopLine Value="147"/>
+        <CursorPos X="4" Y="162"/>
         <UsageCount Value="11"/>
       </Unit7>
       <Unit8>
         <Filename Value="../../../../usr/share/fpcsrc/2.2.4/rtl/objpas/types.pp"/>
-        <UnitName Value="types"/>
-        <CursorPos X="4" Y="35"/>
         <TopLine Value="29"/>
+        <CursorPos X="4" Y="35"/>
         <UsageCount Value="11"/>
       </Unit8>
       <Unit9>
         <Filename Value="SynCompletionProposal.pas"/>
-        <UnitName Value="SynCompletionProposal"/>
-        <CursorPos X="34" Y="1244"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="1232"/>
-        <EditorIndex Value="3"/>
+        <CursorPos X="34" Y="1244"/>
         <UsageCount Value="16"/>
-        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit9>
       <Unit10>
         <Filename Value="../../../../usr/lib/lazarus/0.9.28.2/lcl/forms.pp"/>
         <UnitName Value="Forms"/>
-        <CursorPos X="15" Y="521"/>
         <TopLine Value="514"/>
+        <CursorPos X="15" Y="521"/>
         <UsageCount Value="11"/>
       </Unit10>
       <Unit11>
         <Filename Value="unit1.lrs"/>
-        <CursorPos X="1" Y="1"/>
-        <TopLine Value="1"/>
         <UsageCount Value="9"/>
       </Unit11>
       <Unit12>
         <Filename Value="SynEditScrollBar.pas"/>
-        <UnitName Value="SynEditScrollBar"/>
-        <CursorPos X="1" Y="1"/>
-        <TopLine Value="1"/>
         <UsageCount Value="9"/>
       </Unit12>
       <Unit13>
         <Filename Value="SynEditKeyCmds.pas"/>
-        <UnitName Value="SynEditKeyCmds"/>
-        <CursorPos X="1" Y="1"/>
         <TopLine Value="589"/>
         <UsageCount Value="10"/>
       </Unit13>
       <Unit14>
         <Filename Value="SynEditKbdHandler.pas"/>
-        <UnitName Value="SynEditKbdHandler"/>
-        <CursorPos X="1" Y="1"/>
         <TopLine Value="91"/>
         <UsageCount Value="10"/>
       </Unit14>
       <Unit15>
         <Filename Value="SynEditKeyConst.pas"/>
-        <UnitName Value="SynEditKeyConst"/>
-        <CursorPos X="3" Y="127"/>
         <TopLine Value="115"/>
+        <CursorPos X="3" Y="127"/>
         <UsageCount Value="12"/>
       </Unit15>
       <Unit16>
         <Filename Value="C:/lazarus/lcl/lmessages.pp"/>
         <UnitName Value="LMessages"/>
-        <CursorPos X="3" Y="492"/>
         <TopLine Value="489"/>
+        <CursorPos X="3" Y="492"/>
         <UsageCount Value="10"/>
       </Unit16>
       <Unit17>
         <Filename Value="C:/lazarus/lcl/include/customform.inc"/>
-        <CursorPos X="1" Y="372"/>
         <TopLine Value="360"/>
+        <CursorPos Y="372"/>
         <UsageCount Value="10"/>
       </Unit17>
       <Unit18>
         <Filename Value="C:/lazarus/lcl/stdctrls.pp"/>
         <UnitName Value="StdCtrls"/>
-        <CursorPos X="48" Y="117"/>
         <TopLine Value="99"/>
+        <CursorPos X="48" Y="117"/>
         <UsageCount Value="10"/>
       </Unit18>
       <Unit19>
         <Filename Value="C:/lazarus/lcl/extctrls.pp"/>
         <UnitName Value="ExtCtrls"/>
-        <CursorPos X="18" Y="739"/>
         <TopLine Value="727"/>
+        <CursorPos X="18" Y="739"/>
         <UsageCount Value="10"/>
       </Unit19>
       <Unit20>
         <Filename Value="C:/lazarus/lcl/controls.pp"/>
         <UnitName Value="Controls"/>
-        <CursorPos X="39" Y="133"/>
         <TopLine Value="121"/>
+        <CursorPos X="39" Y="133"/>
         <UsageCount Value="11"/>
       </Unit20>
       <Unit21>
         <Filename Value="SynWeb/SynHighlighterWeb.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="SynHighlighterWeb"/>
-        <CursorPos X="5" Y="2688"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="2676"/>
-        <EditorIndex Value="4"/>
-        <UsageCount Value="26"/>
-        <Loaded Value="True"/>
+        <CursorPos X="5" Y="2688"/>
+        <UsageCount Value="28"/>
+        <LoadedDesigner Value="True"/>
       </Unit21>
       <Unit22>
         <Filename Value="SynWeb/SynHighlighterWeb_Attrs.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit22>
       <Unit23>
         <Filename Value="SynWeb/SynHighlighterWeb_AttrsFunc.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit23>
       <Unit24>
         <Filename Value="SynWeb/SynHighlighterWeb_AttrsFuncList.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit24>
       <Unit25>
         <Filename Value="SynWeb/SynHighlighterWeb_AttrsFuncTable.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit25>
       <Unit26>
         <Filename Value="SynWeb/SynHighlighterWeb_CssProps.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit26>
       <Unit27>
         <Filename Value="SynWeb/SynHighlighterWeb_CssPropsFunc.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit27>
       <Unit28>
         <Filename Value="SynWeb/SynHighlighterWeb_CssPropsFuncList.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit28>
       <Unit29>
         <Filename Value="SynWeb/SynHighlighterWeb_CssPropsFuncTable.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit29>
       <Unit30>
         <Filename Value="SynWeb/SynHighlighterWeb_CssSpecial.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit30>
       <Unit31>
         <Filename Value="SynWeb/SynHighlighterWeb_CssSpecialFunc.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit31>
       <Unit32>
         <Filename Value="SynWeb/SynHighlighterWeb_CssSpecialFuncList.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit32>
       <Unit33>
         <Filename Value="SynWeb/SynHighlighterWeb_CssSpecialFuncTable.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit33>
       <Unit34>
         <Filename Value="SynWeb/SynHighlighterWeb_CssVals.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit34>
       <Unit35>
         <Filename Value="SynWeb/SynHighlighterWeb_CssValsFunc.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit35>
       <Unit36>
         <Filename Value="SynWeb/SynHighlighterWeb_CssValsFuncList.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit36>
       <Unit37>
         <Filename Value="SynWeb/SynHighlighterWeb_CssValsFuncTable.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit37>
       <Unit38>
         <Filename Value="SynWeb/SynHighlighterWeb_ESKeywords.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit38>
       <Unit39>
         <Filename Value="SynWeb/SynHighlighterWeb_ESKeywordsFunc.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit39>
       <Unit40>
         <Filename Value="SynWeb/SynHighlighterWeb_ESKeywordsFuncList.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit40>
       <Unit41>
         <Filename Value="SynWeb/SynHighlighterWeb_ESKeywordsFuncTable.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit41>
       <Unit42>
         <Filename Value="SynWeb/SynHighlighterWeb_PhpKeywords.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit42>
       <Unit43>
         <Filename Value="SynWeb/SynHighlighterWeb_PhpKeywordsFunc.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit43>
       <Unit44>
         <Filename Value="SynWeb/SynHighlighterWeb_PhpKeywordsFuncList.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit44>
       <Unit45>
         <Filename Value="SynWeb/SynHighlighterWeb_PhpKeywordsFuncTable.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit45>
       <Unit46>
         <Filename Value="SynWeb/SynHighlighterWeb_PhpVersion.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit46>
       <Unit47>
         <Filename Value="SynWeb/SynHighlighterWeb_Special.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit47>
       <Unit48>
         <Filename Value="SynWeb/SynHighlighterWeb_SpecialFunc.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit48>
       <Unit49>
         <Filename Value="SynWeb/SynHighlighterWeb_SpecialFuncList.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit49>
       <Unit50>
         <Filename Value="SynWeb/SynHighlighterWeb_SpecialFuncTable.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit50>
       <Unit51>
         <Filename Value="SynWeb/SynHighlighterWeb_Tables.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit51>
       <Unit52>
         <Filename Value="SynWeb/SynHighlighterWeb_Tags.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit52>
       <Unit53>
         <Filename Value="SynWeb/SynHighlighterWeb_TagsFunc.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit53>
       <Unit54>
         <Filename Value="SynWeb/SynHighlighterWeb_TagsFuncList.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit54>
       <Unit55>
         <Filename Value="SynWeb/SynHighlighterWeb_TagsFuncTable.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit55>
       <Unit56>
         <Filename Value="SynWeb/SynHighlighterWebData.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="SynHighlighterWebData"/>
-        <CursorPos X="35" Y="300"/>
         <TopLine Value="290"/>
-        <UsageCount Value="26"/>
+        <CursorPos X="35" Y="300"/>
+        <UsageCount Value="28"/>
       </Unit56>
       <Unit57>
         <Filename Value="SynWeb/SynHighlighterWebMisc.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="SynHighlighterWebMisc"/>
-        <CursorPos X="19" Y="78"/>
         <TopLine Value="64"/>
-        <UsageCount Value="26"/>
+        <CursorPos X="19" Y="78"/>
+        <UsageCount Value="28"/>
       </Unit57>
       <Unit58>
         <Filename Value="SynWeb/SynTokenMatch.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="SynTokenMatch"/>
-        <CursorPos X="1" Y="1"/>
-        <TopLine Value="1"/>
-        <EditorIndex Value="2"/>
-        <UsageCount Value="26"/>
-        <Loaded Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="28"/>
+        <LoadedDesigner Value="True"/>
       </Unit58>
       <Unit59>
         <Filename Value="SynWeb/SynWeb.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="28"/>
       </Unit59>
       <Unit60>
         <Filename Value="../../../../usr/lib/lazarus/0.9.28.2/lcl/interfaces/qt/interfaces.pp"/>
-        <UnitName Value="interfaces"/>
-        <CursorPos X="24" Y="41"/>
         <TopLine Value="23"/>
+        <CursorPos X="24" Y="41"/>
         <UsageCount Value="10"/>
       </Unit60>
       <Unit61>
         <Filename Value="../../../../usr/lib/lazarus/0.9.28.2/lcl/interfaces/qt/qtint.pp"/>
-        <UnitName Value="qtint"/>
-        <CursorPos X="3" Y="57"/>
         <TopLine Value="45"/>
+        <CursorPos X="3" Y="57"/>
         <UsageCount Value="10"/>
       </Unit61>
       <Unit62>
         <Filename Value="C:/lazarus/lcl/graphics.pp"/>
         <UnitName Value="Graphics"/>
-        <CursorPos X="12" Y="302"/>
         <TopLine Value="283"/>
+        <CursorPos X="12" Y="302"/>
         <UsageCount Value="10"/>
       </Unit62>
+      <Unit63>
+        <Filename Value="../../Source/Synedit/SynTextDrawer.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit63>
+      <Unit64>
+        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="439"/>
+        <CursorPos X="23" Y="446"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit64>
+      <Unit65>
+        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="4950"/>
+        <CursorPos X="18" Y="4955"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit65>
+      <Unit66>
+        <Filename Value="../../Source/Synedit/synedit.inc"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="67"/>
+        <CursorPos X="3" Y="76"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit66>
+      <Unit67>
+        <Filename Value="C:/lazarus/lcl/lmessages.pp"/>
+        <UnitName Value="LMessages"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="598"/>
+        <CursorPos X="5" Y="609"/>
+        <UsageCount Value="10"/>
+      </Unit67>
+      <Unit68>
+        <Filename Value="C:/lazarus/lcl/lcltype.pp"/>
+        <UnitName Value="LCLType"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="146"/>
+        <CursorPos X="3" Y="154"/>
+        <UsageCount Value="10"/>
+      </Unit68>
+      <Unit69>
+        <Filename Value="C:/lazarus/fpc/3.2.2/source/rtl/win/wininc/base.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="185"/>
+        <CursorPos X="6" Y="193"/>
+        <UsageCount Value="10"/>
+      </Unit69>
     </Units>
-    <JumpHistory Count="30" HistoryIndex="29">
+    <JumpHistory Count="29" HistoryIndex="28">
       <Position1>
-        <Filename Value="SynWeb/SynHighlighterWeb.pas"/>
-        <Caret Line="726" Column="14" TopLine="716"/>
+        <Filename Value="../../Source/Synedit/synedit.inc"/>
+        <Caret Line="360" Column="23" TopLine="345"/>
       </Position1>
       <Position2>
-        <Filename Value="SynWeb/SynHighlighterWeb.pas"/>
-        <Caret Line="747" Column="24" TopLine="737"/>
+        <Filename Value="../../Source/Synedit/synedit.inc"/>
+        <Caret Line="352" Column="17" TopLine="346"/>
       </Position2>
       <Position3>
-        <Filename Value="SynWeb/SynHighlighterWeb.pas"/>
-        <Caret Line="1089" Column="57" TopLine="1079"/>
+        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
+        <Caret Line="4962" Column="5" TopLine="4954"/>
       </Position3>
       <Position4>
-        <Filename Value="SynWeb/SynHighlighterWeb.pas"/>
-        <Caret Line="1704" Column="50" TopLine="1694"/>
+        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
+        <Caret Line="7791" Column="21" TopLine="7786"/>
       </Position4>
       <Position5>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="136" Column="38" TopLine="128"/>
+        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
+        <Caret Line="8100" Column="20" TopLine="8098"/>
       </Position5>
       <Position6>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="162" Column="10" TopLine="140"/>
+        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
+        <Caret Line="8172" Column="21" TopLine="8168"/>
       </Position6>
       <Position7>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="193" Column="21" TopLine="171"/>
+        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
+        <Caret Line="8992" Column="23" TopLine="8984"/>
       </Position7>
       <Position8>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="194" Column="21" TopLine="172"/>
+        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
+        <Caret Line="9003" Column="23" TopLine="8995"/>
       </Position8>
       <Position9>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="258" Column="73" TopLine="236"/>
+        <Filename Value="../../Source/Synedit/synedit.inc"/>
+        <Caret Line="75" Column="16" TopLine="67"/>
       </Position9>
       <Position10>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="279" Column="42" TopLine="257"/>
+        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
+        <Caret Line="4958" Column="3" TopLine="4950"/>
       </Position10>
       <Position11>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="374" Column="50" TopLine="352"/>
+        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
+        <Caret Line="4962" Column="5" TopLine="4954"/>
       </Position11>
       <Position12>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="1241" Column="27" TopLine="1224"/>
+        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
+        <Caret Line="42" Column="15" TopLine="34"/>
       </Position12>
       <Position13>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="1285" Column="23" TopLine="1266"/>
+        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
+        <Caret Line="50" Column="15" TopLine="37"/>
       </Position13>
       <Position14>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="1287" Column="27" TopLine="1272"/>
+        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
+        <Caret Line="49" Column="15" TopLine="34"/>
       </Position14>
       <Position15>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="1230" Column="43" TopLine="1218"/>
+        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
+        <Caret Line="42" TopLine="34"/>
       </Position15>
       <Position16>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="1319" Column="40" TopLine="1297"/>
+        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
+        <Caret Line="49" TopLine="34"/>
       </Position16>
       <Position17>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="1339" Column="40" TopLine="1326"/>
+        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
+        <Caret Line="803" Column="39" TopLine="795"/>
       </Position17>
       <Position18>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="1384" Column="41" TopLine="1374"/>
+        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
+        <Caret Line="183" Column="5" TopLine="175"/>
       </Position18>
       <Position19>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="1391" Column="41" TopLine="1374"/>
+        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
+        <Caret Line="138" Column="3" TopLine="130"/>
       </Position19>
       <Position20>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="1398" Column="42" TopLine="1376"/>
+        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
+        <Caret Line="803" Column="39" TopLine="795"/>
       </Position20>
       <Position21>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="1411" Column="41" TopLine="1389"/>
+        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
+        <Caret Line="183" Column="5" TopLine="175"/>
       </Position21>
       <Position22>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="1551" Column="41" TopLine="1529"/>
+        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
+        <Caret Line="138" Column="3" TopLine="130"/>
       </Position22>
       <Position23>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="1588" Column="41" TopLine="1566"/>
+        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
+        <Caret Line="806" Column="22" TopLine="795"/>
       </Position23>
       <Position24>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="1598" Column="40" TopLine="1588"/>
+        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
+        <Caret Line="813" Column="27" TopLine="803"/>
       </Position24>
       <Position25>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="1631" Column="41" TopLine="1621"/>
+        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
+        <Caret Line="883" Column="26" TopLine="873"/>
       </Position25>
       <Position26>
-        <Filename Value="project1.lpr"/>
-        <Caret Line="12" Column="17" TopLine="1"/>
+        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
+        <Caret Line="4962" Column="9" TopLine="4950"/>
       </Position26>
       <Position27>
-        <Filename Value="project1.lpr"/>
-        <Caret Line="21" Column="1" TopLine="1"/>
+        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
+        <Caret Line="446" Column="23" TopLine="439"/>
       </Position27>
       <Position28>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="1749" Column="22" TopLine="1738"/>
+        <Filename Value="../../Source/Synedit/SynEdit.pas"/>
+        <Caret Line="4958" Column="3" TopLine="4950"/>
       </Position28>
       <Position29>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="1241" Column="33" TopLine="49"/>
+        <Filename Value="../../Source/Synedit/SynHighlighterMulti.pas"/>
+        <Caret Line="446" Column="23" TopLine="439"/>
       </Position29>
-      <Position30>
-        <Filename Value="SynCompletionProposal.pas"/>
-        <Caret Line="48" Column="14" TopLine="73"/>
-      </Position30>
     </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
-    <Version Value="8"/>
+    <Version Value="11"/>
     <SearchPaths>
-      <IncludeFiles Value="$(ProjOutDir)/;SynWeb/"/>
-      <OtherUnitFiles Value="SynWeb/"/>
+      <IncludeFiles Value="$(ProjOutDir);SynWeb"/>
+      <OtherUnitFiles Value="../../Source/SynWeb;../../Source/SynEdit"/>
       <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
     <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf2Set"/>
+      </Debugging>
       <Options>
         <Win32>
           <GraphicApplication Value="True"/>
         </Win32>
       </Options>
     </Linking>
-    <Other>
-      <CompilerPath Value="$(CompPath)"/>
-    </Other>
   </CompilerOptions>
   <Debugging>
     <Exceptions Count="3">
